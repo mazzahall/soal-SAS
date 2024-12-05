@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f5f7fa;
+}
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 70px;
+  max-width: 400px;
+  text-align: left;
+}
+.card .profile {
+  margin-bottom: 15px;
+}
+.card .profile img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+.card .profile .name {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #333;
+}
+.card .content {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 15px;
+}
+.price-button {
+  background-color: #4267f5;
+  color: white;
+  font: size 15px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  
+}
+
+.price-button:hover {
+  background-color: #294baf;
+}
