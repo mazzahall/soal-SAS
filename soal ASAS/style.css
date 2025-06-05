@@ -1,0 +1,97 @@
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color:white;
+            margin: 0;
+            padding: 20px;
+        }
+        .pro{
+            display: flex;
+        }
+        .pricing-card {
+            background-color:#5267D7;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 320px;
+            padding: 30px;
+            text-align: left;
+        }
+
+        p{
+            color: white;
+        }
+
+        .plan-name {
+            font-size: 30px;
+            font-weight: 700;
+            /* margin: 0 0 5px 0; */
+            color:white;
+        }
+        
+        .plan-price {
+            font-size: 30px;
+            font-weight: 600;
+            color:white;
+            margin-left: 30px;
+        }
+        
+        .unlimited {
+            font-size: 15px;
+            font-weight: 400;
+            color:white;
+            margin: 70px;
+            margin-left: -50px;
+        }
+        
+        .features {
+            margin: 25px 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        
+        .features li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+            color:white;
+            line-height: 1.4;
+        }
+        
+        .features li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color:white;
+            font-weight: bold;
+        }
+        
+        .all-features {
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        
+        .cta-button {
+            background-color:white;
+            color:black;
+            border: none;
+            border-radius: 5px;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: 300;
+            width: 100%;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        .cta-button:hover {
+            background-color:#5267D7;
+            color: white;
+        }
